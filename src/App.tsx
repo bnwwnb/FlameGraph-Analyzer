@@ -254,7 +254,7 @@ export default function App() {
                 <input 
                   type="range" 
                   min="0" 
-                  max="5" 
+                  max="20" 
                   step="0.1" 
                   value={minPercent} 
                   onChange={(e) => setMinPercent(parseFloat(e.target.value))}
