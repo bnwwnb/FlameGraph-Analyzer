@@ -68,7 +68,7 @@ export default function App() {
     setLoading(true);
     setLoadingMessage("Fetching demo file...");
     try {
-      const response = await fetch('/assets/flamegraph_demo.svg');
+      const response = await fetch('/public/flamegraph_demo.svg');
       const content = await response.text();
       processContent(content, 'flamegraph_demo.svg');
     } catch (err) {
